@@ -1,0 +1,54 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "bitext-retail-ecommerce-llm-chatbot-training-dataset",
+  "dataset_size": 43048701,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/bitext/Bitext-retail-ecommerce-llm-chatbot-training-dataset@12dd624ddcd3057382b2faad661bcda1fa869491/bitext-retail-ecommerce-llm-chatbot-training-dataset.csv": {
+      "num_bytes": 42624013,
+      "checksum": null
+    }
+  },
+  "download_size": 42624013,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "intent": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tags": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "response": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 85672714,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 43048701,
+      "num_examples": 44884,
+      "dataset_name": "bitext-retail-ecommerce-llm-chatbot-training-dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
